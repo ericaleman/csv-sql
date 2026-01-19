@@ -1,0 +1,20 @@
+[project]
+name = "csv-sql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.4.3",
+    "marimo>=0.19.4",
+    "ollama>=0.6.1",
+    "polars[pyarrow]>=1.37.1",
+    "pydantic-ai>=1.44.0",
+    "sqlglot>=28.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "altair>=6.0.0",
+    "ruff>=0.14.13",
+]
